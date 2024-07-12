@@ -1,0 +1,40 @@
+Agenda
+1-Set up the github (Repostiory)
+a)New Environment
+first change the path to your folder by "cd path name" and then "drive name:"
+"conda create -p venv python==3.8 -y"  in the terminal ctrl +`
+then "conda activate venv/"
+for github Repostiory-
+"git init"
+"create README.md" file
+and type "git add README.md"
+
+To commit the changes into the file
+git commit -m "First commit"
+
+To check the status of 
+"git status"
+
+"git branch -M main"
+"git remote add origin https://github.com/prince0018/ML-endtoend-Project.git"
+"git remove -v" to sync with the Repostiory
+
+To push the data 
+for first time:
+git config --global user.name "prince0018"
+git config --global user.email sharma18.prince@gmail.com
+Then-
+"git push -u origin main"
+
+Create ".gitignore" file on github and add the extension of Python of gitignore
+
+to update in vs code "git pull"
+b)setup.py
+create a setup.py file
+it will help to create ml application as a package
+and can deploy in pipeline
+#To build the packages
+we create src folder and create init file in that
+
+c)requirements.txt
+
