@@ -38,3 +38,9 @@ we create src folder and create init file in that
 
 c)requirements.txt
 
+
+#for commiting the code
+git add .
+git status
+git commit -m "checkpoint name"
+git push -u origin main
